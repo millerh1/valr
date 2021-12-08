@@ -1,27 +1,21 @@
 ## New patch version
 
-* This is a second resubmission with better Title and DOI added to Description, and a period at the end of the Description.
+This is a patch version to update the maintainer:
 
-* This is a new patch version that fixes an issue in the last release caught by CRAN rchk involving a misplaced UNPROTECT call.
+New maintainer:
+  Kent Riemondy <kent.riemondy@cuanschutz.edu>
+Old maintainer(s):
+  Jay Hesselberth <jay.hesselberth@gmail.com>
 
 ## Test environment
 
-* win-builder (devel and  R 3.6.0)
-* local OS X install, R 3.6.0
-* Windows (on Github Actions), 3.6.0
-* macOS (on Github Actions), R 3.6.0
-* ubuntu 16.04 (on Github Actions), (devel and R 3.6.0)
+* win-builder (devel and  R 4.1.2)
+* local OS X install, R 4.1.2
+* Windows (on Github Actions), 4.1.2
+* macOS (on Github Actions), R 4.1.2
+* ubuntu 18.02 (on Github Actions), (devel and R 4.1.2)
 
 ## R CMD check results
-
-* on rhub (windows, release and devel versions)
-
-  Status: 1 Note
-  
-  Packages suggested but not available for checking:
-  'GenomicRanges' 'IRanges' 'S4Vectors'
-  
-  GenomicRanges, IRanges, and S4Vectors are available as Bioconductor packages.
   
 * on win-builder (release and devel)
 
@@ -46,4 +40,8 @@
   
 ## Reverse dependencies
 
-There are no reverse dependencies.
+We checked 1 reverse dependencies (0 from CRAN + 1 from Bioconductor  (`RLSeq`)), comparing R CMD check results across CRAN and dev versions of this package.
+
+ * We saw 0 new problems
+ * We failed to check 0 packages
+ 
